@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "firmware_checks": {
+    "unleashed": {
+      "firmware": "unlshd-093",
+      "api": "88.9",
+      "physical_card_reading": true,
+      "saved_card_reading": true,
+      "removal_detection": true
+    },
+    "official": {
+      "firmware": "1.5.1",
+      "api": "88.2",
+      "hardware_tested": false
+    }
+  },
+  "compatible_hosts": [
+    "Windows HINATA DLL",
+    "HINATA Go"
+  ],
+  "games": [
+    "ONGEKI",
+    "CHUNITHM"
+  ],
+  "saved_banapass_same_save_in_checked_private_network": true,
+  "private_card_data_included": false
+}

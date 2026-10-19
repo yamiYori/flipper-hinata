@@ -1,0 +1,13 @@
+App(
+    appid="hinata_usb",
+    name="HINATA USB Reader",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="hinata_usb_app",
+    requires=["gui"],
+    stack_size=6144,
+    fap_category="USB",
+    fap_version=(1, 0, 0),
+    fap_author="Flipper HINATA contributors",
+    fap_description="HINATA HID reader with physical and saved Lite-S cards",
+    sources=["src/*.c", "src/core/*.c"],
+)

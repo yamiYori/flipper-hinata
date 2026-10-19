@@ -1,0 +1,19 @@
+{
+  "dart_sdk": {
+    "version": "3.13.5",
+    "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/3.13.5/sdk/dartsdk-windows-x64-release.zip",
+    "sha256": "aed8e4a8932ce8fa18ea32f990e43b4a1c9390a4c73777ab6fdf77fc9f4524d1"
+  },
+  "public_client": {
+    "repository": "Project-HINATA/hinata_go",
+    "url": "https://github.com/Project-HINATA/hinata_go",
+    "commit": "66ac7f6ab2f09272bbca0c5d9db6ad7a4808f0a1",
+    "source_root": "plugins/hinata_nfc.dart/lib/src",
+    "sha256": {
+      "protocol/pn532.dart": "f778f86894310f5115f2fc24cd172b049001215fa346cfb1bfd1205be4e853a3",
+      "protocol/sega_protocol.dart": "8918049608fc664fdeca34f05d3ac3581cb01bddf181867bfb801e31bdf968d0",
+      "protocol/base.dart": "f7816328fc58a51cafd2a769826fe5ee5a49c3a5d47dac2f1c235627adb217f2",
+      "nfc/target.dart": "fa77ece2faa2ce2b842533915b84076e540b8e75bf9d0d3701724aecc6f06cec"
+    }
+  }
+}

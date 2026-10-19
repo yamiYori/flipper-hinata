@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "firmware": "1.5.1",
+  "api": "88.2",
+  "hardware": "f7",
+  "sdk": {
+    "filename": "flipper-z-f7-sdk-1.5.1.zip",
+    "url": "https://update.flipperzero.one/builds/firmware/1.5.1/flipper-z-f7-sdk-1.5.1.zip",
+    "size": 19604363,
+    "sha256": "dfde39df32ba8a9789b26afc1d702579ad8399a1c285770637cfe3287b2e2ffe"
+  },
+  "toolchain": {
+    "version": "39",
+    "filename": "toolchain-39.zip",
+    "url": "https://update.flipperzero.one/builds/toolchain/gcc-arm-none-eabi-12.3-x86_64-windows-flipper-39.zip",
+    "size": 301281372,
+    "sha256": "33de65db5700e18b9aecb4abcfcca0a3456e02b13b5e7d58e5589d71d469a23f"
+  }
+}

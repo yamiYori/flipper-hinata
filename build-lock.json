@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "firmware": "unlshd-093",
+  "firmware_commit": "603f90d037c7e9db81b2b25736f8cdda28ea6ba8",
+  "api": "88.9",
+  "hardware": "f7",
+  "sdk": {
+    "filename": "flipper-z-f7-sdk-unlshd-093.zip",
+    "url": "https://github.com/DarkFlippers/unleashed-firmware/releases/download/unlshd-093/flipper-z-f7-sdk-unlshd-093.zip",
+    "api_url": "https://api.github.com/repos/DarkFlippers/unleashed-firmware/releases/assets/559940080",
+    "size": 23200285,
+    "sha256": "1eebdcf8cb1ffad4266bc084f872d2b79b0c26b98bc86162865e89aa1b375e66"
+  },
+  "toolchain": {
+    "version": "39",
+    "filename": "toolchain-39.zip",
+    "url": "https://update.flipperzero.one/builds/toolchain/gcc-arm-none-eabi-12.3-x86_64-windows-flipper-39.zip",
+    "size": 301281372,
+    "sha256": "33de65db5700e18b9aecb4abcfcca0a3456e02b13b5e7d58e5589d71d469a23f"
+  }
+}

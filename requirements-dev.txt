@@ -1,0 +1,5 @@
+ufbt==0.2.6
+ziglang==0.16.0
+pyserial==3.5
+oslex==2.0.0
+mslex==1.3.0
