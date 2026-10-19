@@ -10,10 +10,10 @@
 
 ## 兼容性
 
-- **实体卡：**支持官方 Aime、BanaPass，以及兼容的四字节 UID MIFARE Classic 卡。Classic 密钥由上位机提供。
-- **保存卡：**支持手动放卡／移卡；已保存的 BanaPass 卡文件在已验证的私网环境中可与实体卡读入同一存档。
-- **上位机：**兼容 Windows 原版 HINATA DLL 和 HINATA Go 网页端。
-- **游戏：**1.0.0 在音击和中二节奏中使用正常。
+- **实体卡**：支持官方 Aime、BanaPass，以及兼容的四字节 UID MIFARE Classic 卡。Classic 密钥由上位机提供。
+- **保存卡**：支持手动放卡／移卡；已保存的 BanaPass 卡文件在已验证的私网环境中可与实体卡读入同一存档。
+- **上位机**：兼容 Windows 原版 HINATA DLL 和 HINATA Go 网页端。
+- **游戏**：1.0.0 在音击和中二节奏中使用正常。
 
 ## 下载与安装
 
