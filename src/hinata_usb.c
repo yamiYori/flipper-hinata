@@ -94,7 +94,7 @@ static bool refresh(App *a) {
         else
             snprintf(s.lines[5], 32, "%.20s  < clear", a->rf);
     } else {
-        snprintf(s.lines[0], 32, "HINATA USB 1.0.0   %s",
+        snprintf(s.lines[0], 32, "HINATA USB 1.0.1   %s",
                  atomic_load(&a->usb.connected) ? "UP" : "WAIT");
         snprintf(s.lines[1], 32, "%s  CardIO:%s",
                  a->virtual_mode ? "Virtual Lite-S" : "Physical NFC", a->cardio ? "on" : "off");

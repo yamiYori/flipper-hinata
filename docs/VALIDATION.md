@@ -2,7 +2,8 @@
 
 | Target | Status |
 | --- | --- |
-| Unleashed unlshd-093 / API 88.9 | Physical and saved-card reading, host connection and card removal checked. |
+| Unleashed unlshd-095 / API 88.26 | Version 1.0.1 startup, icon display, host card reading and removal/reinsertion checked. |
+| Unleashed unlshd-093 / API 88.9 (version 1.0.0) | Physical and saved-card reading, host connection and card removal checked. |
 | Official firmware 1.5.1 / API 88.2 | Compiled against the official SDK; not tested on a device. |
 | Windows HINATA DLL and HINATA Go | Card reading and removal work with the supported card types. |
 | ONGEKI and CHUNITHM | Version 1.0.0 works in the checked setup. |

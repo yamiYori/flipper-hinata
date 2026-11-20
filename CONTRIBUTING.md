@@ -36,13 +36,13 @@ Tests use synthetic data. Manual checks are described in [HARDWARE-TEST.md](docs
 Build both firmware targets and complete the local and public-client checks, then run:
 
 ```powershell
-python tools/package.py --out release/1.0.0
+python tools/package.py --out release/1.0.1
 ```
 
 To package without running tests:
 
 ```powershell
-python tools/package.py --without-tests --out release/1.0.0
+python tools/package.py --without-tests --out release/1.0.1
 ```
 
 The output directory must be empty or new.

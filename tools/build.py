@@ -61,7 +61,7 @@ def main() -> int:
     release_name = (f"hinata_usb-official-{lock['firmware']}.fap" if args.firmware == "official"
                     else f"hinata_usb-unleashed-{lock['firmware'].removeprefix('unlshd-')}.fap")
     inputs = [ROOT / "application.fam", ROOT / lock_name, ROOT / "tools/build.py",
-              ROOT / "tools/bootstrap.py"] + sorted(p for p in (ROOT / "src").rglob("*") if p.suffix in {".c", ".h"})
+              ROOT / "tools/bootstrap.py", ROOT / "assets/hinata_10px.png"] + sorted(p for p in (ROOT / "src").rglob("*") if p.suffix in {".c", ".h"})
     manifest = {"app_version": lock["version"], "firmware_flavor": args.firmware,
                 "sdk": lock["firmware"], "api": api, "target": lock["hardware"],
                 "filename": artifact.name, "release_filename": release_name,

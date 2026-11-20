@@ -8,11 +8,12 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 TOP = ['application.fam', 'build-lock.json', 'build-lock-official.json', 'sources-lock.json',
-       'requirements-dev.txt', 'requirements-host.txt', 'LICENSE', 'NOTICE.md', 'readme.md',
+       'requirements-dev.txt', 'requirements-host.txt', 'assets/hinata_10px.png', 'LICENSE', 'NOTICE.md', 'readme.md',
        'readme-zh-cn.md', 'CHANGELOG.md', 'CONTRIBUTING.md', 'CONTRIBUTING-zh-cn.md',
        '.gitignore', '.gitattributes']
 DOCS = ['PROTOCOL.md', 'RESEARCH.md', 'VALIDATION.md', 'HARDWARE-TEST.md',
-        'RELEASE-1.0.0.md', 'RELEASE-1.0.0-zh-cn.md']
+        'RELEASE-1.0.0.md', 'RELEASE-1.0.0-zh-cn.md',
+        'RELEASE-1.0.1.md', 'RELEASE-1.0.1-zh-cn.md']
 
 
 def digest(data):
@@ -108,8 +109,8 @@ def main():
     for name, data in downloads.items():
         (out / name).write_bytes(data)
     # Standalone release notes use stable repository links, including the other language.
-    for source, name in [('docs/RELEASE-1.0.0.md', 'RELEASE-NOTES.md'),
-                         ('docs/RELEASE-1.0.0-zh-cn.md', 'RELEASE-NOTES-zh-cn.md')]:
+    for source, name in [(f'docs/RELEASE-{version}.md', 'RELEASE-NOTES.md'),
+                         (f'docs/RELEASE-{version}-zh-cn.md', 'RELEASE-NOTES-zh-cn.md')]:
         notes = files[source].decode()
         def link(match):
             label, target = match.groups()

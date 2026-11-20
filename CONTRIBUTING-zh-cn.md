@@ -36,13 +36,13 @@ python tools/test_public_client.py --dart C:/path/to/dart.exe --source C:/path/t
 先构建两种固件目标，并完成本地检查和公开客户端回归，再运行：
 
 ```powershell
-python tools/package.py --out release/1.0.0
+python tools/package.py --out release/1.0.1
 ```
 
 跳过测试打包：
 
 ```powershell
-python tools/package.py --without-tests --out release/1.0.0
+python tools/package.py --without-tests --out release/1.0.1
 ```
 
 输出目录必须为空或尚未存在。

@@ -22,9 +22,9 @@ Choose the file matching the firmware installed on your Flipper:
 | Firmware | Download |
 | --- | --- |
 | Official 1.5.1 · API 88.2 | `hinata_usb-official-1.5.1.fap` |
-| Unleashed unlshd-093 · API 88.9 | `hinata_usb-unleashed-093.fap` |
+| Unleashed unlshd-095 · API 88.26 | `hinata_usb-unleashed-095.fap` |
 
-Official 1.5.1 is the latest stable release as of 2026-10-19. Both builds target Flipper Zero F7; see [validation](docs/VALIDATION.md) for coverage. Other firmware versions may require a rebuild.
+Official 1.5.1 is the latest stable release as of 2026-11-20. Both builds target Flipper Zero F7; see [validation](docs/VALIDATION.md) for coverage. Other firmware versions may require a rebuild.
 
 1. Download the matching FAP from Releases. The ZIP includes both builds, complete source and the license.
 2. Rename the downloaded file to `hinata_usb.fap` and copy it to `/ext/apps/USB/` on the SD card.
@@ -83,4 +83,4 @@ The following features are not yet implemented, have partial support, or are out
 
 Licensed under **GPL-3.0-or-later**; see [LICENSE](LICENSE) and [provenance](NOTICE.md).
 
-[Changelog](CHANGELOG.md) · [Release notes](docs/RELEASE-1.0.0.md)
+[Changelog](CHANGELOG.md) · [Release notes](docs/RELEASE-1.0.1.md)

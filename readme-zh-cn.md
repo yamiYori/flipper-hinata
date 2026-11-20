@@ -22,9 +22,9 @@
 | 固件 | 下载文件 |
 | --- | --- |
 | 官方固件 1.5.1 · API 88.2 | `hinata_usb-official-1.5.1.fap` |
-| Unleashed unlshd-093 · API 88.9 | `hinata_usb-unleashed-093.fap` |
+| Unleashed unlshd-095 · API 88.26 | `hinata_usb-unleashed-095.fap` |
 
-官方 1.5.1 是截至 2026-10-19 的最新稳定版。两种成品均面向 Flipper Zero F7；验证范围见[验证记录](docs/VALIDATION.md)。其他固件版本可能需要重新构建。
+官方 1.5.1 是截至 2026-11-20 的最新稳定版。两种成品均面向 Flipper Zero F7；验证范围见[验证记录](docs/VALIDATION.md)。其他固件版本可能需要重新构建。
 
 1. 从 Release 下载对应的 FAP；ZIP 同时包含两种成品、完整源码和许可证。
 2. 将下载的文件重命名为 `hinata_usb.fap`，复制到 SD 卡 `/ext/apps/USB/`。
@@ -83,4 +83,4 @@ python tools/build.py --firmware unleashed
 
 采用 **GPL-3.0-or-later**，见 [LICENSE](LICENSE) 和[来源说明](NOTICE.md)。
 
-[更新记录](CHANGELOG.md) · [发布说明](docs/RELEASE-1.0.0-zh-cn.md)
+[更新记录](CHANGELOG.md) · [发布说明](docs/RELEASE-1.0.1-zh-cn.md)

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+- Add a music arcade cabinet icon to the application list.
+- Update the Unleashed build to unlshd-095 / API 88.26.
+- Rebuild the official firmware 1.5.1 / API 88.2 package with the new icon.
+
 ## 1.0.0
 
 First public release.

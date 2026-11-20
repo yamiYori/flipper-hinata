@@ -1,15 +1,15 @@
 {
-  "version": "1.0.0",
-  "firmware": "unlshd-093",
-  "firmware_commit": "603f90d037c7e9db81b2b25736f8cdda28ea6ba8",
-  "api": "88.9",
+  "version": "1.0.1",
+  "firmware": "unlshd-095",
+  "firmware_commit": "9c6327764c18fc8376b5941aa8bde79fe681fe8f",
+  "api": "88.26",
   "hardware": "f7",
   "sdk": {
-    "filename": "flipper-z-f7-sdk-unlshd-093.zip",
-    "url": "https://github.com/DarkFlippers/unleashed-firmware/releases/download/unlshd-093/flipper-z-f7-sdk-unlshd-093.zip",
-    "api_url": "https://api.github.com/repos/DarkFlippers/unleashed-firmware/releases/assets/559940080",
-    "size": 23200285,
-    "sha256": "1eebdcf8cb1ffad4266bc084f872d2b79b0c26b98bc86162865e89aa1b375e66"
+    "filename": "flipper-z-f7-sdk-unlshd-095.zip",
+    "url": "https://github.com/DarkFlippers/unleashed-firmware/releases/download/unlshd-095/flipper-z-f7-sdk-unlshd-095.zip",
+    "api_url": "https://api.github.com/repos/DarkFlippers/unleashed-firmware/releases/assets/736281243",
+    "size": 23795589,
+    "sha256": "9b24f65db6410e2c34fb8ec85038fee579f190269f35a2d6c7d799a25c5d493b"
   },
   "toolchain": {
     "version": "39",
